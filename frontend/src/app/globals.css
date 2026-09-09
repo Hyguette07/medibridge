@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #f7fbfb;
+  --ink: #12303a;
+  --teal: #0e7c7b;
+  --mist: #e7f4f3;
+}
+
+body {
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(circle at 12% 8%, #d7efed 0, transparent 42%),
+    radial-gradient(circle at 88% 0%, #eef6f2 0, transparent 36%);
+}
+
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-sans {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
